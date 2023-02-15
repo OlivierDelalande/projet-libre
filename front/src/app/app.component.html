@@ -1,2 +1,80 @@
-<p>Communicating with backend :</p>
-<p>{{(testValue | async)?.greetings}}</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angular App</title>
+</head>
+<body>
+  <header>
+  </header>
+  <div class="introduction"> 
+    <section> 
+      <h1>Objectif</h1>
+      <p>{{ entrepreneurs }}</p>
+      <p>{{ itProfessionals }}</p>
+      <p>{{ how }}</p>
+      <p>{{ toExpect }}</p>
+      <p>{{ features }}</p>
+      <p>{{ creation }}</p>
+      <p>{{ helpEntrepreunership }}</p>
+    </section>
+    <section>
+      <h1>Pourquoi rejoindre l'aventure</h1>
+      <p>{{ come }}</p>
+      <p>{{ events }}</p>
+      <p>{{ work }}</p>
+      <p>{{ act }}</p>
+    </section>
+    <section>
+      <h1>Règles de développement</h1>
+      <p>{{ review }}</p>
+      <p>{{ peer }}</p>
+      <p>{{ estimate }}</p>
+      <p>{{ commit }}</p>
+      <p>{{ passedDueDate }}</p>
+      <p>{{ coverage }}</p>
+      <p>{{ oneFeature }}</p>
+      <p>{{ collaborate }}</p>
+      <p>{{ skills }}</p>
+    </section>
+    <section>
+      <h1>Règles du projet</h1>
+      <p>{{ journey }}</p>
+      <p>{{ meetings }}</p>
+      <p>{{ knowledgeTransfer }}</p>
+      <p>{{ stack }}</p>
+      <p>{{ projects }}</p>
+      <p>{{ faq }}</p>
+    </section>
+    <section>
+      <h1>Les premiers todos</h1>
+        <div *ngFor="let todo of todosList">
+          <div class="todos">
+            <p>{{ todo.number }}: {{ todo.title }}</p>
+          </div>
+        </div>
+    </section>
+    <section>
+      <h1>Les contributeurs</h1>
+      <h1>Fondateur / PO / DEV</h1>
+        <div class="contributors">
+          <p>Olivier Delalande</p>
+          <p>Linkedin https://fr.linkedin.com/in/olivierdelalande</p>
+          <p>github https://github.com/OlivierDelalande</p>
+        </div>
+      <h1 class="developers">développeurs</h1>
+        <div *ngFor="let contributor of contributorsList">
+          <div class="contributors">
+            <p>{{ contributor.firstname }} {{ contributor.lastname }}</p>
+            <p>Linkedin {{ contributor.linkedin_profile }}</p>
+            <p>github {{ contributor.github_profile }}</p>
+          </div>
+        </div>
+        <div><p>Bientôt toi ;)</p></div>
+    </section>
+  </div>
+  <footer>
+  </footer>
+</body>
+</html>

@@ -1,19 +1,17 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-
-export interface Test {
-  greetings: string;
-}
+import { DataInterface } from '../../interfaces';
 
 @Injectable({
   providedIn: 'root'
 })
-export class TestService {
+export class DataService {
 
   constructor(private http: HttpClient) { }
 
-  getTest(): Observable<Test> {
-    return this.http.get<Test>('back');
+  getData(): Observable<DataInterface> {
+    console.log(this.http.get<DataInterface>('back'))
+    return this.http.get<DataInterface>('back');
   }
 }
