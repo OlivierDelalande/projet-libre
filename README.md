@@ -36,11 +36,11 @@ développements suffisamment aboutis pour être viables en production et restant
 
 # Pourquoi ce projet ?
 
-As-tu déjà tenter l'aventure de l'entrepreunariat ? Si oui, tu sais le degré d'investissement que cela demande, avec le risque de tout lâcher et se mettre 'dans le rouge' parce que rien ni personne ne te fera détourner les yeux de ton objectif tant que tu n'auras pas pu pleinement confronter ton idée au marché. Pour qu'une personne qui a une bonne idée puisse la confronter rapidement au marché, sans metttre en péril sa vie professionnelle, sociale, sentimentale, voire familiale, il faut se rendre à l'évidence que la masse de travail demandée est très importante pour une seule personne, et peut être soulagée en trouvant des appuis dans le monde actuel de l'open source. Quand on ne veut pas quitter son job trop tôt pour ne pas risquer cette 'mise dans le rouge', voire que l'on a déjà des enfants, cela ne signifie pas que notre idée ne mérite pas de voir le jour, ou que notre degré d'invesissement psychologique n'est pas suffisant, cela signifie juste qu'il faut fédérer les énérgies, et que chacun y trouve son intérêt. Et cela est préférable à voir des investisseurs vous voler votre projet parce que ne serait-ce que de produire une version une du projet représenterait déjà une charge conséquente
+As-tu déjà tenter l'aventure de l'entrepreunariat ? Si oui, tu sais le degré d'investissement que cela demande, avec le risque de tout lâcher et se mettre 'dans le rouge' parce que rien ni personne ne te fera détourner les yeux de ton objectif tant que tu n'auras pas pu pleinement confronter ton idée au marché. Pour qu'une personne qui a une bonne idée puisse la confronter rapidement au marché, sans metttre en péril sa vie professionnelle, sociale, sentimentale, voire familiale, il faut se rendre à l'évidence que la masse de travail demandée est très importante pour une seule personne, et peut être soulagée en trouvant des appuis dans le monde actuel de l'open source. Quand on ne veut pas quitter son job trop tôt pour ne pas risquer cette 'mise dans le rouge', voire que l'on a déjà des enfants, cela ne signifie pas que notre idée ne mérite pas de voir le jour, ou que notre degré d'investissement psychologique n'est pas suffisant, cela signifie juste qu'il faut fédérer les énérgies, et que chacun y trouve son intérêt. Et cela est préférable à voir des investisseurs vous voler votre projet parce que ne serait-ce que de produire une version une du projet représenterait déjà une charge conséquente
 
 # Développer pour entreprendre
 
-Imagine tous les projets entrepreunariaux que tu contribueras ainsi à produire en ne donnant que quelques heurs de ton temps. Peut-être même de grands projets de demain, ou de grands projets soutenant le développement durable, thème qui nous concerne tous. Tout cela en faisant croître ton réseau et tes compétence (aussi bien hard que soft skills)
+Imagine tous les projets entrepreunariaux auxquels tu contribueras ainsi à produire en ne donnant que quelques heurs de ton temps. Peut-être même de grands projets de demain, ou de grands projets soutenant le développement durable, thème qui nous concerne tous. Tout cela en faisant croître ton réseau et tes compétence (aussi bien hard que soft skills)
 
 # Rejoins l'aventure
 
@@ -79,11 +79,11 @@ par la main les futur développeurs presque comme s'ils ne savaient pas dévelop
 # règles du projet
 
 - le trajet compte au moins autant si ce n'est plus que la destination, pensez échanges, bienveillance, networking, construction de rapports de confiance
-- si ce n'est pas une obligation bien évidemment, vous essaieraez de vous rendre disponible
+- si ce n'est pas une obligation bien évidemment, vous essaierez de vous rendre disponible
 une fois de temps en temps pour les rendez-vous mensuels des contributeurs, pour développer la
 cohésion d'équipe et l'approche networking pour le projet comme pour vos prochains projets. Vous rencontrerez potentiellement sur le projet vos futurs collègues, boss, collaborateurs.
-- si vous avez déjà une expérience significaztive, pensez également transmission lors des peers, pour faire évoluer des profils moins aguerris que vous mais qui seront bientôt aussi bons que vous ;)
-- Le projet démarre avec une stack NestJs/Angular universal. Il sera plus facile pour des     développeurs front de s'habituer à NestJs, accroissant leurs compétences back, et inversement plus
+- si vous avez déjà une expérience significative, pensez également transmission lors des peers, pour faire évoluer des profils moins aguerris que vous mais qui seront bientôt aussi bons que vous ;)
+- Le projet démarre avec une stack NestJs/Angular universal. Il sera plus facile pour des développeurs front de s'habituer à NestJs, accroissant leurs compétences back, et inversement plus
 facile pour des développeurs back de s'habituer à Angular, accroissant leurs compétences également.
 - Cela ne signifie qu'il ne sera pas possible de travailler sur une autre stack back ou front, ou
 une autre base de donnée. Il faut bien démarrer quelque part, et par soucis de cohérence avant de
