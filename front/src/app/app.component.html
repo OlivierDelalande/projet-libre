@@ -7,46 +7,20 @@
 </head>
 <body>
   <header>
+    <div class="nav">
+      <a routerLink="/">Contributors</a>
+    </div>
+    <div class="nav">
+      <a routerLink="/board">Board</a>
+    </div>
+    <div class="nav">
+      <a routerLink="/about">About</a>
+    </div>
   </header>
-  <div class="introduction"> 
-    <section> 
-      <h1>Objectif</h1>
-      <p>{{ entrepreneurs }}</p>
-      <p>{{ itProfessionals }}</p>
-      <p>{{ how }}</p>
-      <p>{{ toExpect }}</p>
-      <p>{{ features }}</p>
-      <p>{{ creation }}</p>
-      <p>{{ helpEntrepreunership }}</p>
-    </section>
-    <section>
-      <h1>Pourquoi rejoindre l'aventure</h1>
-      <p>{{ come }}</p>
-      <p>{{ events }}</p>
-      <p>{{ work }}</p>
-      <p>{{ act }}</p>
-    </section>
-    <section>
-      <h1>Règles de développement</h1>
-      <p>{{ review }}</p>
-      <p>{{ peer }}</p>
-      <p>{{ estimate }}</p>
-      <p>{{ commit }}</p>
-      <p>{{ passedDueDate }}</p>
-      <p>{{ coverage }}</p>
-      <p>{{ oneFeature }}</p>
-      <p>{{ collaborate }}</p>
-      <p>{{ skills }}</p>
-    </section>
-    <section>
-      <h1>Règles du projet</h1>
-      <p>{{ journey }}</p>
-      <p>{{ meetings }}</p>
-      <p>{{ knowledgeTransfer }}</p>
-      <p>{{ stack }}</p>
-      <p>{{ projects }}</p>
-      <p>{{ faq }}</p>
-    </section>
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+  <div> 
     <section>
       <h1>Les premiers todos</h1>
         <div *ngFor="let todo of todosList">

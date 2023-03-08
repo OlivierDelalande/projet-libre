@@ -3,6 +3,17 @@ header {
   width: 100%;
   background-color: white;
   border-bottom: blue 3px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header a {
+  display: block;
+  font-size: 2rem;
+  text-decoration: none;
+  flex-direction: row;
+  margin: 6rem 6rem;
 }
 
 section {
