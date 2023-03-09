@@ -1,7 +1,7 @@
-import { ContributorsListInterface } from "./contributors-interface";
-import { TodosListInterface } from "./todos-interface";
+import { Contributors } from "./contributors-interface";
+import { Todos } from "./todos-interface";
 
 export interface DataInterface {
-  contributorsList: ContributorsListInterface[],
-  todosList: TodosListInterface[],
+  contributorsList: Contributors[],
+  todosList: Todos[],
 }

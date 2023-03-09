@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
-import { DataService } from './services/data-service/data.service';
-import { DataInterface, ContributorsListInterface, TodosListInterface } from './interfaces';
+import { DataService } from './services';
+import { DataInterface, Contributors, Todos } from './interfaces';
 import { ContributorsInitialiser, TodosInializer } from './initializers';
 
 @Component({
@@ -12,8 +12,8 @@ import { ContributorsInitialiser, TodosInializer } from './initializers';
 export class AppComponent {
   private data$: Observable<DataInterface> = this.service.getData();
   
-  contributorsList: ContributorsListInterface[] = ContributorsInitialiser;
-  todosList: TodosListInterface[] = TodosInializer;
+  contributorsList: Contributors[] = ContributorsInitialiser;
+  todosList: Todos[] = TodosInializer;
 
   constructor(private service: DataService) {
     this.data$.subscribe(({ contributorsList, todosList }) => {

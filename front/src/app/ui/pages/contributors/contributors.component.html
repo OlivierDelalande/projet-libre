@@ -1,0 +1,19 @@
+Contributors
+<section>
+  <h1>Les contributeurs</h1>
+  <h1>Fondateur / PO / DEV</h1>
+    <div class="contributors">
+      <p>Olivier Delalande</p>
+      <p>Linkedin https://fr.linkedin.com/in/olivierdelalande</p>
+      <p>github https://github.com/OlivierDelalande</p>
+    </div>
+  <h1 class="developers">développeurs</h1>
+    <div *ngFor="let contributor of contributorsList">
+      <div class="contributors">
+        <p>{{ contributor.firstname }} {{ contributor.lastname }}</p>
+        <p>Linkedin {{ contributor.linkedin_profile }}</p>
+        <p>github {{ contributor.github_profile }}</p>
+      </div>
+    </div>
+    <div><p>Bientôt toi ;)</p></div>
+</section>

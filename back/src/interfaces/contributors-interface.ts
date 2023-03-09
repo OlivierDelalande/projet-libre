@@ -1,4 +1,4 @@
-export interface ContributorsListInterface {
+export type Contributors = {
   firstname: string;
   lastname: string;
   linkedin_profile: string;
@@ -8,3 +8,7 @@ export interface ContributorsListInterface {
   tickets_validation: string[];
   contribution_start_date: Date;
 };
+
+export interface ContributorsListInterface {
+  contributorsList: Contributors[],
+}

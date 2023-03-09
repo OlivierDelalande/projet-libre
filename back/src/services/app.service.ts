@@ -1,10 +1,11 @@
 import { Injectable } from '@nestjs/common';
-import { contributorsList, todosList } from './data/index';
-import { DataInterface } from './interfaces';
+import { contributorsList, todosList } from '../data';
+import { DataInterface } from '../interfaces';
 
 @Injectable()
 export class AppService {
-  getHello() {
+
+  getHello(): DataInterface {
     const data: DataInterface = {
       contributorsList,
       todosList,

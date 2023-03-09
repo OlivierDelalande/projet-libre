@@ -1,0 +1,9 @@
+Board
+<section>
+  <h1>Les premiers todos</h1>
+    <div *ngFor="let todo of todosList">
+      <div class="todos">
+        <p>{{ todo.number }}: {{ todo.title }}</p>
+      </div>
+    </div>
+</section>

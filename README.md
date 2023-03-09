@@ -96,7 +96,3 @@ docker-compose up
 ```
 go to localhost:3000/back pour le back
 go to localhost:4200 pour le front
-
-# Contribuer
-
-Tu développes/échanges quand tu veux, mais les tranches horaires privilégiées pour discord seront le soir de 20h à minuit et le week-end de 10h à 20h

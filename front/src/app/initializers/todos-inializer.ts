@@ -1,6 +1,6 @@
-import { TodosListInterface } from '../interfaces/todos-interface';
+import { Todos } from '../interfaces';
 
-export const TodosInializer: TodosListInterface[] = [
+export const TodosInializer: Todos[] = [
   {
     number: 1,
     title: 'Task 1',

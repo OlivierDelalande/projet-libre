@@ -1,15 +1,6 @@
-export interface Contributor {
-  firstname: string;
-  lastname: string;
-  linkedin_profile: string;
-  github_profile: string;
-  presentation: string;
-  tickets_contribution: string[];
-  tickets_validation: string[];
-  contribution_start_date: Date;
-}
+import { Contributors } from '../interfaces';
 
-export const ContributorsInitialiser: Contributor[] = [
+export const ContributorsInitialiser: Contributors[] = [
   {
     firstname: '',
     lastname: '',

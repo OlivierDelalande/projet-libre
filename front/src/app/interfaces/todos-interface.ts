@@ -8,7 +8,7 @@ type Acceptance = {
   [key: string]: string;
 }
 
-export interface TodosListInterface {
+export type Todos = {
   number: number;
   title: string;
   context: string;
@@ -21,3 +21,7 @@ export interface TodosListInterface {
   acceptance_criteria: Acceptance;
   status: string;
 };
+
+export interface TodosListInterface {
+  todosList: Todos[],
+}
