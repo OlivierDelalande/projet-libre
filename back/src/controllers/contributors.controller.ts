@@ -7,7 +7,7 @@ export class ContributorsController {
   constructor(private readonly contributorsService: ContributorsService) {}
 
   @Get()
-  getContributors(): ContributorsListInterface[] {
+  getContributors(): ContributorsListInterface {
     return this.contributorsService.getContributors();
   }
 }

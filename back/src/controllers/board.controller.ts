@@ -7,7 +7,7 @@ export class BoardController {
   constructor(private readonly boardService: BoardService) {}
 
   @Get()
-  getBoard(): TodosListInterface[] {
+  getBoard(): TodosListInterface {
     return this.boardService.getBoard();
   }
 }
