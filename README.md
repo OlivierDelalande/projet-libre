@@ -71,6 +71,7 @@ vouloir développer une feature sur une autre stack, elle doit l'être sur celle
 - Soyez sympa entre contributeurs, l'idée est que chacun a un job à côté, le travail sur ce projet est un bonus. Cela ne signifie pas que ce soit une excuse pour faire traîner des sujets, en revanche on ne peut être vindicatif sur des délais. En revanche rien n'empêche de passer la main après s'être engagé si on se rend compte que l'on a pas le temps
 - Toute feature realisée passera dans une colonne challengeable. Priorité aux nouvelles features, le challenge doit réellement apporter quelque chose
 - Toute développement doit être fait mobile first
+- on devient contributeur en effectuant les développements ou en étant reviewer
 
 # Projets concrets
 
@@ -78,10 +79,10 @@ Pour rendre la création des composants ludiques, il s'agira de créer plusieurs
 
   - Un boilerplate contenant un projet bootstrapé avec tous les essentiels d'une nouvelle app. 
   - Un projet 'témoin' composé du boilerplate agrémenté de tous les composants créés sous forme de modules dans un dossier libs, modules utilisables dans les futurs projets. 
-  - Un premier projet concret de management d'une équipe de développeurs développant une app, avec backlog, board de développement, des pages développeurs avec leurs réalisation et leurs présentations.... C'est évidemment là que l'on gèrera notre backlog pour ce projet
+  - Un premier projet concret de management d'une équipe de développeurs développant une app, avec backlog, board de développement, des pages développeurs avec leurs réalisation et leurs présentations.... C'est évidemment là que l'on gèrera notre backlog pour ces projets
   - Un deuxième étant un site ecommere gérant photos, vidéos, paiements, paniers... 
   - Un troisième: une tchat app cryptant les échanges.
-  - Un quatrième: un outil visio et audio pour échanger
+  - Un quatrième: un outil visio et audio pour échanger qui serait auto-hébergeable 
 
 # FAQ
 
